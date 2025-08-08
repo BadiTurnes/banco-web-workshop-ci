@@ -1,5 +1,7 @@
 
 # Banco Web
+Este é um projeto da Mentoria de teste do Júlio de Lima.
+Aula de Integração Contínua com Cypress, aplicada por Samuel Lucas.
 
 ## Descrição
 Este é um projeto de aplicação web criado para fins educacionais, com o objetivo de ensinar conceitos de teste de software. Ele consome uma API REST (Banco API) e oferece funcionalidades como login, transferências entre contas e listagem de transferências.
@@ -51,7 +53,10 @@ Antes de executar o `Banco Web`, certifique-se de que a API esteja configurada e
    ```
    http://localhost:4000
    ```
-
+## Executar os testes
+   ```
+   npx cypress run
+   ```
 ## Funcionalidades
 
 ### Login
